@@ -1,0 +1,9 @@
+flask
+flask-socketio
+eventlet
+gunicorn
+flask-mysqldb
+flask-login
+flask-wtf
+wtforms
+werkzeug
