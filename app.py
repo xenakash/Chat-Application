@@ -55,6 +55,10 @@ class LoginForm(FlaskForm):
     submit = SubmitField('Login')
 
 # Routes
+@app.route('/')
+def home():
+    return redirect(url_for('login'))
+
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     form = RegisterForm()
